@@ -230,8 +230,26 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+  text-align: center;
+  background: #e9e9e9;
+  background-clip: content-box;
 }
 
-.gallery img:hover {
-	opacity: 0.4;
+.gallery h1 {
+  vertical-align: middle;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.gallery a:hover {
+  text-decoration: none;
+}
+
+.gallery:hover {
+	background: #c4c4c4;
+  background-clip: content-box;
+}
+
+.gallery:hover h1 {
+  color: black;
 }
