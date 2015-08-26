@@ -86,7 +86,9 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: transparent;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
 	color: #1abc9c;
 	background-color: transparent;
 	border-bottom: 2px solid #1abc9c
@@ -144,8 +146,6 @@ h1, h2, h3, h4, h5, h6 {
 #social i {
 	font-size: 40px;
 	color: #4a4a4a;
-  float: left;
-  width: 20%;
 }
 
 #social i:hover {
@@ -224,6 +224,16 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
+#footerwrap a {
+  text-decoration: none;
+  color: white;
+}
+
+#footerwrap a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
 
 
 
@@ -231,18 +241,30 @@ h1, h2, h3, h4, h5, h6 {
 .gallery {
 	margin-top: 30px;
   text-align: center;
-  background: #e9e9e9;
+  background: #f2f2f2;
   background-clip: content-box;
+  height: 300px;
+  display: table;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .gallery h1 {
   vertical-align: middle;
   text-align: center;
-  padding: 100px 0;
+  margin: auto 0;
 }
 
-.gallery a:hover {
+.gallery {
+  color: #4a4a4a;
+}
+
+a.gallery:hover {
   text-decoration: none;
+  color: #4a4a4a;
 }
 
 .gallery:hover {
@@ -252,4 +274,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery:hover h1 {
   color: black;
+}
+
+.gallery .details {
+  display: none;
+}
+
+.gallery:hover .details {
+  display: block;
 }
