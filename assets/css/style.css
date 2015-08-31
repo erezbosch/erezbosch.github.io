@@ -45,7 +45,7 @@
 }
 
 .mt {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .mb {
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #aboutwrap {
 	background: url(../img/about.jpg) no-repeat center center;
-	margin-top: -70px;
+	margin-top: 0px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
@@ -222,10 +222,10 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: 100%;
     background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 #footerwrap .row > div {
